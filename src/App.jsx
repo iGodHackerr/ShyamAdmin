@@ -70,7 +70,7 @@ import Add from "./pages/Add";
 import List from "./pages/List";
 import Order from "./pages/Order";
 
-export const backendUrl = "http://localhost:4000";
+export const backendUrl = "https://shyam-backk.vercel.app";
 export const currency = "₹";
 
 const App = () => {
