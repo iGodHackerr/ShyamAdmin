@@ -90,6 +90,7 @@ const App = () => {
         <Navbar setToken={setToken} setIsSidebarOpen={setIsSidebarOpen} />
         <div className="p-4">
           <Routes>
+            <Route path="/" element={<Navigate to="/add" />} />
             <Route path="/add" element={<Add token={token} />} />
             <Route path="/list" element={<List token={token} />} />
             <Route path="/orders" element={<Order token={token} />} />
